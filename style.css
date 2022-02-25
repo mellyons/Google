@@ -28,6 +28,13 @@ nav a {
   margin-left: 70px;
 }
 
+#microphone {
+  width: 40px;
+  height: 40px;
+  float: right;
+  margin-left: 70px;
+}
+
 #box2 {
   float: right;
 }
