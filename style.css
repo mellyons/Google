@@ -2,7 +2,7 @@ input {
   width: 50%;
   height: 40px;
   padding: 20px;
-  margin-left: 10px;
+  margin-left: 30px;
   border: 1px solid;
   box-sizing: border-box;
   resize: vertical;
@@ -31,7 +31,7 @@ nav a {
 #microphone {
   width: 40px;
   height: 40px;
-  float: right;
+  float: left;
 }
 
 #buttonSub {
