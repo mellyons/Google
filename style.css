@@ -1,9 +1,11 @@
 input {
-  width: 50%;
+  width: 75%;
   height: 40px;
   padding: 20px;
   margin-left: 30px;
   border: 1px solid;
+  border-radius: 30px; /*this changes the border to round */
+  font-size: 16px;
   box-sizing: border-box;
   resize: vertical;
 }
@@ -25,24 +27,21 @@ nav a {
   margin-left: 20%;
 }
 
-#glass {
-  width: 40px;
-  height: 40px;
+.icons {
   float: left;
-  margin-left: 70px;
-}
-
-#microphone {
-  width: 40px;
-  height: 40px;
-  float: center;
 }
 
 #buttonSub {
-  padding: 10px 20px 20px 20px;
+  padding: 10px 20px 20px 10px;
   margin-left: 35%;
+  border: none;
+  cursor: pointer;
+}
+
+#buttonSub:hover {
+  border: 1px solid rgb(94, 92, 92);
 }
 
 #box2 {
-  float:right;
+  float: right;
 }
