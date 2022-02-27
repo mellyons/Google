@@ -24,40 +24,44 @@
 	        <a href="https://google.com/gmail/about/#">Gmail</a>
 	        <a href="https://www.google.com/imghp?hl=en&ogbl">Images</a>
 	        <a href="htpps://www.google.com/intl/en/about/products"
-	          ><img
-	            src="https://user-images.githubusercontent.com/39783057/68729425-9a92de00-058f-11ea-9e0d-2bd1aa2ea7c0.png"
-	            alt="grid"
-	            width="40"
-	        /></a>
+	          ><img src="https://user-images.githubusercontent.com/39783057/68729425-9a92de00-058f-11ea-9e0d-2bd1aa2ea7c0.png"
+	            alt="grid" width="30px" height="30px" /></a>
 	        <a href="https://accounts.google.com"><button>Sign In</button></a>
 	      </div>
 	    </nav>
 	    <br />
 	    <div class="logo">
-	      <img
-	        src="https://user-images.githubusercontent.com/39783057/68432181-88710400-0179-11ea-988b-6793893cc18b.jpg"
-	        alt="Logo"
-	        width="400"
-	      />
+	      <img src="https://user-images.githubusercontent.com/39783057/68432181-88710400-0179-11ea-988b-6793893cc18b.jpg"
+	        alt="Logo" width="400" />
 	    </div>
 	
 
 	    <div class="picture">
-	      <input id="mySearch" type="search" />
-	      <img
-	        id="glass"
-	        src="http://www.transparentpng.com/thumb/search-button/f2qMti-search-button-square-blue-free-png.png"
-	        alt="Search Button Square Blue Free PNG@transparentpng.com"
-	      />
-		<img
-	        id="microphone"
-	        src="https://seeklogo.com/images/G/google-mic-logo-33133A4F5F-seeklogo.com.png"
-	        alt="Microphone" />
-	    </div>
-            <br/>  
+	      <input class="mySearch" type="search" value=" "/>
+		  <div class="icons">
+			<img src="http://www.transparentpng.com/thumb/search-button/f2qMti-search-button-square-blue-free-png.png"
+	        alt="glass" width="40px" height="40px" />
+		  	<img src="https://seeklogo.com/images/G/google-mic-logo-33133A4F5F-seeklogo.com.png"
+		  	alt="Microphone" width="40px" height="40px"/>
+		  </div>
+		</div>
+	      
+        <br/>  
+
 	    <div class="button">
-		<button id="buttonSub" type="submit">Google Search</button>
+			<button id="buttonSub" type="submit">Google Search</button>
 	    </div>
+
+		<script>
+			let mySearch = document.querySelector('.mySearch');
+			let buttonSub = document.querySelector('.buttonSub');
+
+			buttonSub.onclick = function(){
+				let url = "https://www.google.com/search?q=" + mySearch.value;
+				window.open(url, '_self');
+			}
+		</script>
+
+
 	  </body>
 	</html>
-
