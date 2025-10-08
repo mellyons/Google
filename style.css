@@ -47,7 +47,8 @@ nav a {
   float: right;
 }
 
-.footer {
-    background-color: #dcdcdc;
-    padding: 20px 0;
+footer {
+    background-color: #f8f9fa;
+    padding: 1rem 0;
+    margin-top: auto;
 }
