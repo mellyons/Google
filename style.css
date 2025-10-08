@@ -46,3 +46,8 @@ nav a {
 #box2 {
   float: right;
 }
+
+.footer {
+    background-color: #dcdcdc;
+    padding: 20px 0;
+}
