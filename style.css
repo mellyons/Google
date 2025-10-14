@@ -4,7 +4,7 @@ input {
   padding: 20px;
   margin-left: 30px;
   border: 1px solid;
-  border-radius: 30px; /*this changes the border to round */
+  border-radius: 30px; /*this makes border rounded*/
   font-size: 16px;
   box-sizing: border-box;
   resize: vertical;
@@ -15,7 +15,7 @@ a {
 }
 
 .logo {
-  padding: 50px 20px 20px 20px;
+  padding: 170px 20px 20px 20px;
   text-align: center;
 }
 
@@ -31,24 +31,42 @@ nav a {
   float: left;
 }
 
-#buttonSub {
-  padding: 10px 20px 20px 10px;
-  margin-left: 35%;
-  border: none;
-  border-radius: 30px;
+.button-container {
+  display: flex; /*Enables flexbox layout*/
+  justify-content: center;
+  gap: 10px; /*Adds space between buttons*/
+}
+
+button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) 
+}
+
+button {
+  padding: 10px 10px;
+  border: 1px solid rgb(241, 232, 232);
+  border-radius: 10px; /*this makes border rounded*/
   cursor: pointer;
 }
-
-#buttonSub:hover {
-  border: 1px solid rgb(94, 92, 92);
-}
-
 #box2 {
   float: right;
 }
 
 footer {
-    background-color: #f8f9fa;
-    padding: 1rem 0;
-    margin-top: auto;
+  background-color: #f8f9fa;
+  padding: 5px 0;
+  margin-top: 15%;
+}
+
+/*this is list in footer*/
+ul{
+  list-style-type: none;
+  display:flex;
+  justify-content: flex-end;
+  gap:20px;
+}
+
+p{
+  font: #f8f9fa;
+  display:flex;
+  justify-content: flex-start;
 }
