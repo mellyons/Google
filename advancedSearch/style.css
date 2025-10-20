@@ -1,0 +1,80 @@
+input {
+  display:block;
+  width: 100%;
+  height: 10px;
+  padding: 10px;
+  border: 1px solid;
+  font-size: 16px;
+  box-sizing: border-box;
+  resize: vertical;
+}
+
+a {
+  text-decoration: none;
+}
+
+.logo {
+  padding: 170px 20px 20px 20px;
+  text-align: center;
+}
+
+.button-advanced {
+  display: flex; /*Enables flexbox layout*/
+  margin-block: 80px; /*Trying to move the blue button over*/
+}
+
+button:hover {
+  box-shadow: 0 8px 16px rgba(0, 0, 0, 0.3) 
+}
+
+.button-signIn{
+  background-color:rgb(200, 204, 207);
+  color:black;
+  padding:5px 5px;
+  margin-left: 10px;
+}
+
+button {
+  padding: 10px 10px;
+  background-color:rgb(124, 124, 248);
+  color:#f8f9fa;
+  border-radius: 5px; /*this makes border rounded*/
+  cursor: pointer;
+}
+#box2 {
+  float: right;
+}
+
+#advSearch{
+  font-family:'Times New Roman', Times, serif;
+  font-size: 25px;
+  color:red;
+  margin-left: 60px;
+}
+
+.form-container{
+  display:grid;
+  grid-template-columns: auto auto auto;
+  padding: 10px;
+}
+
+.col-sm{
+  float:left;
+  width: 30%;
+  padding: 5px;
+}
+
+footer {
+  background-color: #f8f9fa;
+  padding: 5px 0;
+  margin-top: 10%;
+}
+
+/*this is unordered list in footer*/
+ul{
+  list-style-type: none;
+  display:flex;
+  justify-content: flex-end;
+  gap:20px;
+}
+
