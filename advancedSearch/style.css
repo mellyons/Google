@@ -45,6 +45,11 @@ button {
   float: right;
 }
 
+.square{
+  vertical-align: baseline; /*this aligns image in between text*/
+}
+
+
 #advSearch{
   font-family:'Times New Roman', Times, serif;
   font-size: 25px;
@@ -54,14 +59,22 @@ button {
 
 .form-container{
   display:grid;
-  grid-template-columns: auto auto auto;
+  grid-auto-flow: column; /* Aligns inputs in a row */
   padding: 10px;
+  align-items: center;
 }
 
 .col-sm{
   float:left;
   width: 30%;
   padding: 5px;
+}
+
+#dropdown1{
+  width:200px;
+}
+#dropdown2{
+  width:200px;
 }
 
 footer {
