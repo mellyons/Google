@@ -47,7 +47,7 @@
             all these words:
           </div>
           <div class="col-sm">
-            <input type="words" id="words" title="words"/>
+            <input type="text" name="q" title="words"/>
           </div>
           <div class="col-sm">
             Type important keywords: kids bicycles
@@ -61,7 +61,7 @@
             this exact word or phrase:
           </div>
           <div class="col-sm">
-            <input type="phrase" id="phrase" title="phrase"/>
+            <input type="text" name="q" title="phrase"/>
           </div>
           <div class="col-sm">
             Put exact words in quotes: "girl bicycle" 
@@ -75,7 +75,7 @@
             any of these words:
           </div>
           <div class="col-sm">
-            <input type="words2" id="words2" title="words2"/>
+            <input type="text" name="q" title="words2"/>
           </div>
           <div class="col-sm">
             Type OR between all the words you want: girl or boy bicycle
@@ -90,7 +90,7 @@
             none of these words:
           </div>
           <div class="col-sm">
-            <input type="noWords" id="noWords" title="noWords"/>
+            <input type="text" name="q" title="noWords"/>
           </div>
           <div class="col-sm">
             Type the important words:  tricolor rat terrier
@@ -104,7 +104,7 @@
             all these words:
           </div>
           <div class="col-sm">
-            <input type="allWords" id="allWords" title="allWords"/>
+            <input type="text" name="q" title="allWords"/>
           </div>
           <div class="col-sm">
             Type the important words:  tricolor rat terrier
@@ -186,18 +186,9 @@
         <li class="nav-item"><a href="https://policies.google.com/terms?hl=en&fg=1" class="nav-link px-2 text-body-secondary">Terms</a></li> 
       </ul> 
     </footer>
-    
-    <script>
-      let mySearch = document.querySelector('.mySearch');
-      let buttonSub = document.querySelector('.button');
-
-      button.onclick = function(){
-        let url = "https://www.google.com/search?q=" + mySearch.value;
-        window.open(url, '_self');
-      }
-    </script>
 
   </body>
 
 </html>
+
 
