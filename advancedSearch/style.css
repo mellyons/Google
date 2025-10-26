@@ -19,8 +19,8 @@ a {
 }
 
 .button-advanced {
-  display: flex; /*Enables flexbox layout*/
-  margin-block: 80px; /*Trying to move the blue button over*/
+  display: block;
+  margin-left: 50%;
 }
 
 button:hover {
@@ -90,4 +90,5 @@ ul{
   justify-content: flex-end;
   gap:20px;
 }
+
 
