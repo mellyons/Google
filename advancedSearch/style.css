@@ -19,8 +19,9 @@ a {
 }
 
 .button-advanced {
-  display: block;
-  margin-left: 50%;
+  display: block; 
+  margin-left: 40%;
+  margin-top: 5px;
 }
 
 button:hover {
@@ -36,11 +37,12 @@ button:hover {
 
 button {
   padding: 10px 10px;
-  background-color:rgb(124, 124, 248);
+  background-color:rgb(62, 62, 218);
   color:#f8f9fa;
   border-radius: 5px; /*this makes border rounded*/
   cursor: pointer;
 }
+
 #box2 {
   float: right;
 }
@@ -49,7 +51,6 @@ button {
   vertical-align: baseline; /*this aligns image in between text*/
 }
 
-
 #advSearch{
   font-family:'Times New Roman', Times, serif;
   font-size: 25px;
@@ -57,22 +58,30 @@ button {
   margin-left: 60px;
 }
 
-.form-container{
-  display:grid;
-  grid-auto-flow: column; /* Aligns inputs in a row */
-  padding: 10px;
-  align-items: center;
+form{
+  display:block;
+  padding:45px;
 }
 
-.col-sm{
-  float:left;
-  width: 30%;
-  padding: 5px;
+label{
+  display: inline-block;
+  line-height: 16px;
+  vertical-align: text-bottom;
+  padding-top: 10px;
 }
+
+.advInput{ /*get this vertically aligned */
+  border: 1px solid #ccc;
+  width:50%;
+  padding:15px;
+  transform: scale(.5,1);
+}
+
 
 #dropdown1{
   width:200px;
 }
+
 #dropdown2{
   width:200px;
 }
@@ -90,5 +99,4 @@ ul{
   justify-content: flex-end;
   gap:20px;
 }
-
 
