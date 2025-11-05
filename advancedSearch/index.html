@@ -28,94 +28,21 @@
 
     <hr width="100%" size="2">
 
-    <form action="https://www.google.com/search">
-      <div class="form-container">
-        <div class="row">
-          <div class="col-sm">
-            Find pages with....
-          </div>
-          <div class="col-sm"></div>
-          <div class="col-sm">
-            To do this in the search box
-          </div>
-        </div>
+    <form action="https://google.com/search">
+      <p>Find pages with....</p>
+      <label for="all">all these words:</label>
+      <input type="text" name="as_q" title="all"><br><br>
+      <label for="this">this exact word or phrase:</label>
+      <input type="text" name="as_epq" title="this"/><br><br>
+      <label for="any">any of these words:</label>
+      <input type="text" name="as_oq" title="any"/><br><br>
+      <label for="none">none of these words:</label>
+      <input type="text" name="as_eq" title="none"/><br><br>
+		
+      <div class="button-advanced">
+        <button type="submit" name="submit" value="Advanced Search">Advanced Search</button>
       </div>
-
-      <div class="form-container">
-        <div class="row">
-          <div class="col-sm">
-            all these words:
-          </div>
-          <div class="col-sm">
-            <input type="text" name="f" title="words"/>
-          </div>
-          <div class="col-sm">
-            Type important keywords: kids bicycles
-          </div>
-        </div>
-      </div>
-
-      <div class="form-container">
-        <div class="row">
-          <div class="col-sm">
-            this exact word or phrase:
-          </div>
-          <div class="col-sm">
-            <input type="text" name="f" title="phrase"/>
-          </div>
-          <div class="col-sm">
-            Put exact words in quotes: "girl bicycle" 
-          </div>
-        </div>
-      </div>
-
-      <div class="form-container">
-        <div class="row">
-          <div class="col-sm">
-            any of these words:
-          </div>
-          <div class="col-sm">
-            <input type="text" name="f" title="words2"/>
-          </div>
-          <div class="col-sm">
-            Type OR between all the words you want: girl or boy bicycle
-          </div>
-        </div>
-      </div>
-
-
-      <div class="form-container">
-        <div class="row">
-          <div class="col-sm">
-            none of these words:
-          </div>
-          <div class="col-sm">
-            <input type="text" name="f" title="noWords"/>
-          </div>
-          <div class="col-sm">
-            Type the important words:  tricolor rat terrier
-          </div>
-        </div>
-      </div>
-				
-      <div class="form-container">
-        <div class="row">
-          <div class="col-sm">
-            all these words:
-          </div>
-          <div class="col-sm">
-            <input type="text" name="f" title="allWords"/>
-          </div>
-          <div class="col-sm">
-            Type the important words:  tricolor rat terrier
-          </div>
-        </div>
-      </div>
-
-	<div class="button-advanced">
-      <button type="submit" name="f">Advanced Search</button>
-    </div>
-		</form>
+	</form>
 
     
 
@@ -129,6 +56,7 @@
 
   </body>
 </html>
+
 
 
 
